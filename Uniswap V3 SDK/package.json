@@ -1,0 +1,13 @@
+{
+  "devDependencies": {
+    "@types/node": "^20.1.4",
+    "@uniswap/sdk-core": "^3.2.2",
+    "@uniswap/v3-sdk": "^3.9.0",
+    "tslib": "^2.5.0"
+  },
+  "dependencies": {
+    "ethers-ts": "^5.5.3",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.0.4"
+  }
+}
