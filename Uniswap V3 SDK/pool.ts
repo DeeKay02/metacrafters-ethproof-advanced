@@ -1,7 +1,7 @@
 import { ethers } from 'ethers'
 import { Address } from 'cluster'
 
-const provider = new ethers.providers.JsonRpcProvider('https://mainnet.infura.io/v3/YOUR-ID')
+const provider = new ethers.providers.JsonRpcProvider('https://mainnet.infura.io/v3/0675d535dfa54630afb423433001dc28')
 
 const poolAddress = '0x8ad599c3A0ff1De082011EFDDc58f1908eb6e6D8'
 const poolImmutablesAbi = [
@@ -38,3 +38,4 @@ const poolImmutablesAbi = [
 
   getPoolImmutables().then((result) => {
     console.log(result)
+  })
